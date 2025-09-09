@@ -1,51 +1,50 @@
 # Event-Registration-Page
 
-##  Event Registration Page
+## Event Registration Page (HTML/CSS/JS)
 
-A simple and user-friendly Event Registration Page where participants can register for an event by filling out their details.
-This project demonstrates form handling, validation, and user data management for events such as workshops, conferences, or competitions.
+A simple and user-friendly Event Registration Page built using HTML, CSS, and JavaScript.
+This project allows users to register for events, validate their input, and see a confirmation message after successful registration.
 
-##  Features
+## Features
 
  User Registration Form
 
-Name, Email, Phone number, Event selection, etc.
+Collects Name, Email, Phone Number, and Event selection
 
- Form Validation (ensures required fields are filled correctly).
+ Form Validation
 
- Data Storage (store registrations in a database or file).
+Checks required fields, email format, and phone number
 
- Confirmation Message after successful registration.
+ Confirmation Message after successful registration
 
- Responsive UI (works on mobile & desktop).
+ Responsive and modern design for desktop and mobile
 
-##  Tech Stack
+ Optional: Can save registrations using localStorage
 
-Frontend: HTML, CSS, JavaScript
+## Tech Stack
 
-Backend: Python (Flask / Django) or PHP / Node.js
+Frontend: HTML5, CSS3, JavaScript
 
-Database: SQLite / MySQL (optional, for storing registrations)
+Optional Enhancements: Bootstrap for styling, localStorage for saving data
 
-##  How to Run
+## How to Run
 
-Clone this repository:
+Clone the repository:
 
-git clone https://github.com/your-username/event-registration-page.git
-cd event-registration-page
-
-
-If backend is Python Flask:
-Install dependencies
-
-pip install -r requirements.txt
+git clone https://github.com/your-username/event-registration-html.git
+cd event-registration-html
 
 
-Run the app:
+Open index.html in your browser:
 
-python app.py
+double-click index.html or right-click -> Open With -> Browser
 
 
-Open browser and visit:
+Fill out the registration form and submit to see the confirmation message.
 
-http://127.0.0.1:5000/
+## Project Structure
+event-registration-html/
+│── index.html           # Main registration page
+│── style.css            # CSS styling
+│── script.js            # JavaScript for form validation
+│── README.md            # Documentation
